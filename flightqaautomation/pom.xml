@@ -5,4 +5,22 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>FlightQAAutomation</name>
   <description>The project for automation of Regression Test Suite for Flight Booking System</description>
+  
+  	<dependencies>
+
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.3.0</version>
+	</dependency>
+	<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.10</version>
+	</dependency>
+
+	</dependencies>
+  
+  
 </project>
